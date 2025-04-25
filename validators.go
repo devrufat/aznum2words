@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-// var validNumberRegex = regexp.MustCompile("^-?\\d+(\\.\\d+)?$")
+//var validNumberRegex = regexp.MustCompile("^-?\\d+(\\.\\d+)?$")
 var validateNumberRegex2 = regexp.MustCompile("^(-|\\+)?(([1-9][0-9]*)|(0))(?:\\.[0-9]+)?$")
 
 func validateInput(numberAsStr string) error {
